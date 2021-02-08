@@ -16,6 +16,10 @@ a {
     border-radius: 5px;
 }
 
+.main {
+    width: 100%;
+}
+
 mark:hover, mark:active {
     background-color: #0c325e;
     color: white;
@@ -26,6 +30,7 @@ mark:hover, mark:active {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -70,14 +75,14 @@ li > .active {
 .main img {
     filter: opacity(0.5);
     align-self: auto;
-    margin-right: 150px;
+    margin-right: 10%;
     border-radius: 10px;
     -webkit-user-select: none;
 }
 
 .hero-text {
     color: white;
-    margin-left: 150px;
+    margin-left: 10%;
     width: 600px;
 }
 
@@ -85,7 +90,7 @@ li > .active {
     -webkit-user-select: none;
     display: inline-block;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 1.4em;
     color: #f5faff;
     background-color: #0c325e;
     padding: 7px 15px;
@@ -98,11 +103,12 @@ li > .active {
 }
 
 .hero-text p {
-    font-size: 30px;
+    font-size: 1.4em;
     margin-top: 20px;
+    word-wrap: break-word;
 }
 
 .main-container h1{
-    font-size: 60px;
+    font-size: 3em;
     color: #f5faff;
 }
