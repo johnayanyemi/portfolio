@@ -9,3 +9,7 @@ This site is only responsive on desktop/web. I started learning to code again la
 # tech
 I built this using HTML and CSS, being the only two technologies I know for now. I'd hopefully be updating this site as I go deep into front-end Development.
 Contibutions are also welcomed!
+
+# 14-04-2021
+Coming back to this and I'm like, haha!
+Probably going to archieve this soon.
